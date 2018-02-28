@@ -1,0 +1,56 @@
+{
+    "define": {
+        "sky": [0, 96],
+        "grass": [96, 0],
+        "ground": [64, 0],
+        "pipe": [352, 160],
+        "fire": [0, 162]
+    },
+    "backgrounds": [
+        {
+            "tile": "sky",
+            "ranges": [
+                [0, 40, 0, 13]
+            ]
+        },
+        {
+            "tile": "ground",
+            "ranges": [
+                [0, 40, 14, 15]
+            ]
+        },
+        {
+            "tile": "grass",
+            "ranges": [
+                [0, 40, 13, 14],
+                [2, 11]
+            ]
+        },
+        {
+            "tile": "sky",
+            "ranges": [
+                [11, 13],
+                [11, 14]
+            ]
+        },
+        {
+            "tile": "pipe",
+            "ranges": [
+                [4, 12],
+                [7, 12]
+            ]
+        },
+        {
+            "tile": "fire",
+            "ranges": [
+                [11, 10]
+            ]
+        },
+        {
+            "tile": "grass",
+            "ranges": [
+                [30, 40, 12, 13]
+            ]
+        }
+    ]
+}
